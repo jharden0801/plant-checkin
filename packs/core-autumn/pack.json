@@ -1,0 +1,384 @@
+{
+  "id": "core-autumn",
+  "name": "秋季学期植物包",
+  "version": "1.2.0",
+  "minAppVersion": "1.0.0",
+  "author": "家庭自制",
+  "license": "致敬风格图案，仅限家庭内部使用，不对外分发",
+  "source": "用户提供的 SVG 图库（带稀有度卡框版，每个角色一个矢量文件，不含内嵌位图），经整理导入；旧版手绘 SVG 与 v5 PNG 保留在 art/、art-v5/",
+  "status": "完成：第1到20周，共20株",
+  "characters": [
+    {
+      "id": "peashooter",
+      "kind": "plant",
+      "name": "豌豆射手",
+      "rarity": "common",
+      "description": "朝前方连续发射豌豆的基础攻击手",
+      "art": "art-card/peashooter.svg",
+      "tags": [
+        "射手",
+        "基础"
+      ],
+      "order": 1,
+      "stats": {
+        "attack": 30,
+        "hp": 30,
+        "skill": "稳定地连续发射豌豆"
+      },
+      "price": 35
+    },
+    {
+      "id": "sunflower",
+      "kind": "plant",
+      "name": "向日葵",
+      "rarity": "common",
+      "description": "会自己产出阳光的好帮手",
+      "art": "art-card/sunflower.svg",
+      "tags": [
+        "阳光",
+        "基础"
+      ],
+      "order": 2,
+      "stats": {
+        "attack": 0,
+        "hp": 25,
+        "skill": "每隔一会儿产出阳光"
+      },
+      "price": 35
+    },
+    {
+      "id": "wall_nut",
+      "kind": "plant",
+      "name": "坚果墙",
+      "rarity": "common",
+      "description": "皮厚结实，专门挡在最前面",
+      "art": "art-card/wall_nut.svg",
+      "tags": [
+        "防御"
+      ],
+      "order": 3,
+      "stats": {
+        "attack": 0,
+        "hp": 85,
+        "skill": "坚硬的外壳，专门挡住僵尸"
+      },
+      "price": 35
+    },
+    {
+      "id": "cherry_bomb",
+      "kind": "plant",
+      "name": "樱桃炸弹",
+      "rarity": "common",
+      "description": "一对樱桃，爆炸时炸倒周围一片",
+      "art": "art-card/cherry_bomb.svg",
+      "tags": [
+        "爆炸"
+      ],
+      "order": 4,
+      "stats": {
+        "attack": 90,
+        "hp": 10,
+        "skill": "一次性爆炸，炸飞周围的僵尸"
+      },
+      "price": 40
+    },
+    {
+      "id": "puff_shroom",
+      "kind": "plant",
+      "name": "小喷菇",
+      "rarity": "common",
+      "description": "个头很小，夜里也能近距离喷孢子",
+      "art": "art-card/puff_shroom.svg",
+      "tags": [
+        "蘑菇",
+        "夜晚"
+      ],
+      "order": 5,
+      "stats": {
+        "attack": 20,
+        "hp": 15,
+        "skill": "射程近，不挑时间"
+      },
+      "price": 35
+    },
+    {
+      "id": "fume_shroom",
+      "kind": "plant",
+      "name": "大喷菇",
+      "rarity": "common",
+      "description": "喷出的烟雾能穿过防护打到后面",
+      "art": "art-card/fume_shroom.svg",
+      "tags": [
+        "蘑菇",
+        "夜晚"
+      ],
+      "order": 6,
+      "stats": {
+        "attack": 40,
+        "hp": 30,
+        "skill": "喷出的烟雾能穿过多个僵尸"
+      },
+      "price": 35
+    },
+    {
+      "id": "potato_mine",
+      "kind": "plant",
+      "name": "土豆地雷",
+      "rarity": "common",
+      "description": "先埋在土里，等对手靠近才爆炸",
+      "art": "art-card/potato_mine.svg",
+      "tags": [
+        "爆炸"
+      ],
+      "order": 7,
+      "stats": {
+        "attack": 85,
+        "hp": 10,
+        "skill": "埋进土里，僵尸一踩就爆炸"
+      },
+      "price": 40
+    },
+    {
+      "id": "magnet_shroom",
+      "kind": "plant",
+      "name": "磁力菇",
+      "rarity": "common",
+      "description": "能把对手身上的金属装备吸走",
+      "art": "art-card/magnet_shroom.svg",
+      "tags": [
+        "蘑菇",
+        "夜晚"
+      ],
+      "order": 8,
+      "stats": {
+        "attack": 10,
+        "hp": 30,
+        "skill": "吸走僵尸身上的金属装备"
+      },
+      "price": 35
+    },
+    {
+      "id": "lily_pad",
+      "kind": "plant",
+      "name": "睡莲",
+      "rarity": "rare",
+      "description": "浮在水面上，给其他植物当底座",
+      "art": "art-card/lily_pad.svg",
+      "tags": [
+        "泳池"
+      ],
+      "order": 9,
+      "stats": {
+        "attack": 0,
+        "hp": 30,
+        "skill": "浮在水面，让别的植物有地方站"
+      },
+      "price": 90
+    },
+    {
+      "id": "snow_pea",
+      "kind": "plant",
+      "name": "寒冰射手",
+      "rarity": "rare",
+      "description": "发射冰豌豆，让对手走得更慢",
+      "art": "art-card/snow_pea.svg",
+      "tags": [
+        "射手",
+        "冰"
+      ],
+      "order": 10,
+      "stats": {
+        "attack": 35,
+        "hp": 30,
+        "skill": "豌豆带寒气，让僵尸变慢"
+      },
+      "price": 100
+    },
+    {
+      "id": "repeater",
+      "kind": "plant",
+      "name": "双发射手",
+      "rarity": "rare",
+      "description": "一次连发两颗豌豆",
+      "art": "art-card/repeater.svg",
+      "tags": [
+        "射手"
+      ],
+      "order": 11,
+      "stats": {
+        "attack": 55,
+        "hp": 30,
+        "skill": "一次连发两颗豌豆"
+      },
+      "price": 95
+    },
+    {
+      "id": "cabbage_pult",
+      "kind": "plant",
+      "name": "卷心菜投手",
+      "rarity": "rare",
+      "description": "把卷心菜抛过去砸对手",
+      "art": "art-card/cabbage_pult.svg",
+      "tags": [
+        "投手"
+      ],
+      "order": 12,
+      "stats": {
+        "attack": 45,
+        "hp": 30,
+        "skill": "抛出卷心菜，能越过障碍"
+      },
+      "price": 95
+    },
+    {
+      "id": "blover",
+      "kind": "plant",
+      "name": "三叶草",
+      "rarity": "rare",
+      "description": "吹出一阵大风，把空中的东西吹走",
+      "art": "art-card/blover.svg",
+      "tags": [
+        "风",
+        "气球"
+      ],
+      "order": 13,
+      "stats": {
+        "attack": 5,
+        "hp": 20,
+        "skill": "吹走天上的气球僵尸和烟雾"
+      },
+      "price": 95
+    },
+    {
+      "id": "plantern",
+      "kind": "plant",
+      "name": "路灯花",
+      "rarity": "rare",
+      "description": "会发光，照亮大雾中的草坪",
+      "art": "art-card/plantern.svg",
+      "tags": [
+        "浓雾",
+        "发光"
+      ],
+      "order": 14,
+      "stats": {
+        "attack": 0,
+        "hp": 30,
+        "skill": "照亮周围，驱散黑夜的迷雾"
+      },
+      "price": 95
+    },
+    {
+      "id": "cactus",
+      "kind": "plant",
+      "name": "仙人掌",
+      "rarity": "rare",
+      "description": "用尖刺攻击，连空中的目标也能射到",
+      "art": "art-card/cactus.svg",
+      "tags": [
+        "射手",
+        "刺"
+      ],
+      "order": 15,
+      "stats": {
+        "attack": 50,
+        "hp": 30,
+        "skill": "发射尖刺，还能打到天上"
+      },
+      "price": 100
+    },
+    {
+      "id": "starfruit",
+      "kind": "plant",
+      "name": "杨桃",
+      "rarity": "rare",
+      "description": "朝五个方向同时射出星星",
+      "art": "art-card/starfruit.svg",
+      "tags": [
+        "射手",
+        "星星"
+      ],
+      "order": 16,
+      "stats": {
+        "attack": 55,
+        "hp": 30,
+        "skill": "朝五个方向同时发射星星"
+      },
+      "price": 105
+    },
+    {
+      "id": "kernel_pult",
+      "kind": "plant",
+      "name": "玉米投手",
+      "rarity": "epic",
+      "description": "抛玉米粒，偶尔抛出一块黄油",
+      "art": "art-card/kernel_pult.svg",
+      "tags": [
+        "投手",
+        "玉米"
+      ],
+      "order": 17,
+      "stats": {
+        "attack": 50,
+        "hp": 30,
+        "skill": "抛玉米粒，偶尔还会抛黄油把僵尸定住"
+      },
+      "price": 220
+    },
+    {
+      "id": "melon_pult",
+      "kind": "plant",
+      "name": "西瓜投手",
+      "rarity": "epic",
+      "description": "抛出大西瓜，砸中还会溅到旁边",
+      "art": "art-card/melon_pult.svg",
+      "tags": [
+        "投手",
+        "西瓜"
+      ],
+      "order": 18,
+      "stats": {
+        "attack": 75,
+        "hp": 30,
+        "skill": "抛出大西瓜，砸中还会溅到旁边"
+      },
+      "price": 225
+    },
+    {
+      "id": "torchwood",
+      "kind": "plant",
+      "name": "火炬树桩",
+      "rarity": "epic",
+      "description": "豌豆穿过它会变成火球",
+      "art": "art-card/torchwood.svg",
+      "tags": [
+        "火"
+      ],
+      "order": 19,
+      "stats": {
+        "attack": 30,
+        "hp": 70,
+        "skill": "豌豆穿过它会着火，伤害翻倍"
+      },
+      "price": 225
+    },
+    {
+      "id": "twin_sunflower",
+      "kind": "plant",
+      "name": "双子向日葵",
+      "rarity": "legend",
+      "description": "一次产出双倍阳光",
+      "art": "art-card/twin_sunflower.svg",
+      "tags": [
+        "阳光"
+      ],
+      "order": 20,
+      "stats": {
+        "attack": 0,
+        "hp": 40,
+        "skill": "一次产出两倍的阳光"
+      },
+      "price": 365
+    }
+  ]
+}

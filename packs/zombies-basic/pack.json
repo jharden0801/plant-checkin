@@ -1,0 +1,173 @@
+{
+  "id": "zombies-basic",
+  "name": "基础僵尸包",
+  "version": "1.1.0",
+  "minAppVersion": "1.0.0",
+  "author": "家庭自制",
+  "license": "致敬风格图案，仅限家庭内部使用，不对外分发",
+  "source": "用户提供的 SVG 图库（带稀有度卡框版，每个角色一个矢量文件，不含内嵌位图），经整理导入；旧版手绘 SVG 与 v5 PNG 保留在 art/、art-v5/",
+  "status": "完成：11个角色（普通僵尸、9只科目僵尸、首领）",
+  "characters": [
+    {
+      "id": "zombie_normal",
+      "kind": "zombie",
+      "name": "普通僵尸",
+      "rarity": "common",
+      "description": "最常见的僵尸，慢悠悠地走过来",
+      "art": "art-card/zombie_normal.svg",
+      "tags": [
+        "基础"
+      ],
+      "order": 1,
+      "unlockStars": 0
+    },
+    {
+      "id": "zombie_newspaper",
+      "kind": "zombie",
+      "name": "读报僵尸",
+      "rarity": "rare",
+      "description": "一边走一边看报，报纸被打掉会变得很生气",
+      "art": "art-card/zombie_newspaper.svg",
+      "tags": [
+        "语文",
+        "报纸"
+      ],
+      "order": 2,
+      "subject": "chinese",
+      "unlockStars": 1
+    },
+    {
+      "id": "zombie_jack",
+      "kind": "zombie",
+      "name": "小丑僵尸",
+      "rarity": "epic",
+      "description": "带着一个会突然弹开的盒子",
+      "art": "art-card/zombie_jack.svg",
+      "tags": [
+        "语文",
+        "盒子"
+      ],
+      "order": 3,
+      "subject": "chinese",
+      "unlockStars": 3
+    },
+    {
+      "id": "zombie_dancer",
+      "kind": "zombie",
+      "name": "舞王僵尸",
+      "rarity": "legend",
+      "description": "一出场就跳舞，还会叫来伴舞",
+      "art": "art-card/zombie_dancer.svg",
+      "tags": [
+        "语文",
+        "舞蹈"
+      ],
+      "order": 4,
+      "subject": "chinese",
+      "unlockStars": 6
+    },
+    {
+      "id": "zombie_cone",
+      "kind": "zombie",
+      "name": "路障僵尸",
+      "rarity": "rare",
+      "description": "头上戴着路障，比普通僵尸耐打",
+      "art": "art-card/zombie_cone.svg",
+      "tags": [
+        "数学",
+        "防具"
+      ],
+      "order": 5,
+      "subject": "math",
+      "unlockStars": 1
+    },
+    {
+      "id": "zombie_bucket",
+      "kind": "zombie",
+      "name": "铁桶僵尸",
+      "rarity": "epic",
+      "description": "头顶铁桶，非常结实",
+      "art": "art-card/zombie_bucket.svg",
+      "tags": [
+        "数学",
+        "防具"
+      ],
+      "order": 6,
+      "subject": "math",
+      "unlockStars": 3
+    },
+    {
+      "id": "zombie_digger",
+      "kind": "zombie",
+      "name": "矿工僵尸",
+      "rarity": "legend",
+      "description": "挖地道从后面冒出来",
+      "art": "art-card/zombie_digger.svg",
+      "tags": [
+        "数学",
+        "地下"
+      ],
+      "order": 7,
+      "subject": "math",
+      "unlockStars": 6
+    },
+    {
+      "id": "zombie_pole",
+      "kind": "zombie",
+      "name": "撑杆僵尸",
+      "rarity": "rare",
+      "description": "拿着长杆，一下子就跳过第一株植物",
+      "art": "art-card/zombie_pole.svg",
+      "tags": [
+        "英语",
+        "跳跃"
+      ],
+      "order": 8,
+      "subject": "english",
+      "unlockStars": 1
+    },
+    {
+      "id": "zombie_balloon",
+      "kind": "zombie",
+      "name": "气球僵尸",
+      "rarity": "epic",
+      "description": "抓着气球从空中飘过来",
+      "art": "art-card/zombie_balloon.svg",
+      "tags": [
+        "英语",
+        "空中"
+      ],
+      "order": 9,
+      "subject": "english",
+      "unlockStars": 3
+    },
+    {
+      "id": "zombie_football",
+      "kind": "zombie",
+      "name": "橄榄球僵尸",
+      "rarity": "legend",
+      "description": "穿着护具，跑得又快又结实",
+      "art": "art-card/zombie_football.svg",
+      "tags": [
+        "英语",
+        "防具"
+      ],
+      "order": 10,
+      "subject": "english",
+      "unlockStars": 6
+    },
+    {
+      "id": "zombie_boss",
+      "kind": "zombie",
+      "name": "僵王博士",
+      "rarity": "legend",
+      "description": "最后一关的大首领",
+      "art": "art-card/zombie_boss.svg",
+      "tags": [
+        "首领"
+      ],
+      "order": 11,
+      "boss": true
+    }
+  ]
+}

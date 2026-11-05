@@ -1,0 +1,381 @@
+{
+  "id": "core-spring",
+  "name": "春季学期植物包",
+  "version": "1.2.0",
+  "minAppVersion": "1.0.0",
+  "author": "家庭自制",
+  "license": "致敬风格图案，仅限家庭内部使用，不对外分发",
+  "source": "用户提供的 SVG 图库（带稀有度卡框版，每个角色一个矢量文件，不含内嵌位图），经整理导入；旧版手绘 SVG 与 v5 PNG 保留在 art/、art-v5/",
+  "status": "完成：第1到20周，共20株",
+  "characters": [
+    {
+      "id": "squash",
+      "kind": "plant",
+      "name": "窝瓜",
+      "rarity": "common",
+      "description": "一跳压扁面前的对手",
+      "art": "art-card/squash.svg",
+      "tags": [
+        "压扁"
+      ],
+      "order": 1,
+      "stats": {
+        "attack": 85,
+        "hp": 20,
+        "skill": "跳起来重重压扁面前的僵尸"
+      },
+      "price": 40
+    },
+    {
+      "id": "jalapeno",
+      "kind": "plant",
+      "name": "火爆辣椒",
+      "rarity": "common",
+      "description": "一整行的对手都会被烧掉",
+      "art": "art-card/jalapeno.svg",
+      "tags": [
+        "爆炸",
+        "火"
+      ],
+      "order": 2,
+      "stats": {
+        "attack": 95,
+        "hp": 10,
+        "skill": "烧光整整一行的僵尸"
+      },
+      "price": 45
+    },
+    {
+      "id": "garlic",
+      "kind": "plant",
+      "name": "大蒜",
+      "rarity": "common",
+      "description": "让对手闻到就想换一条路走",
+      "art": "art-card/garlic.svg",
+      "tags": [
+        "防御"
+      ],
+      "order": 3,
+      "stats": {
+        "attack": 0,
+        "hp": 55,
+        "skill": "僵尸咬一口就嫌臭，换到别的行"
+      },
+      "price": 35
+    },
+    {
+      "id": "spikeweed",
+      "kind": "plant",
+      "name": "地刺",
+      "rarity": "common",
+      "description": "趴在地上，踩到的对手会受伤",
+      "art": "art-card/spikeweed.svg",
+      "tags": [
+        "刺"
+      ],
+      "order": 4,
+      "stats": {
+        "attack": 30,
+        "hp": 50,
+        "skill": "藏在地上，僵尸踩上去就受伤"
+      },
+      "price": 35
+    },
+    {
+      "id": "scaredy_shroom",
+      "kind": "plant",
+      "name": "胆小菇",
+      "rarity": "common",
+      "description": "远远地射击，对手靠近就缩起来",
+      "art": "art-card/scaredy_shroom.svg",
+      "tags": [
+        "蘑菇",
+        "夜晚"
+      ],
+      "order": 5,
+      "stats": {
+        "attack": 30,
+        "hp": 20,
+        "skill": "胆子小，僵尸靠近就缩起来"
+      },
+      "price": 35
+    },
+    {
+      "id": "gloom_shroom",
+      "kind": "plant",
+      "name": "忧郁菇",
+      "rarity": "common",
+      "description": "向四周喷出浓烟，范围很大",
+      "art": "art-card/gloom_shroom.svg",
+      "tags": [
+        "蘑菇",
+        "夜晚"
+      ],
+      "order": 6,
+      "stats": {
+        "attack": 55,
+        "hp": 35,
+        "skill": "向四周喷出毒雾"
+      },
+      "price": 40
+    },
+    {
+      "id": "ice_shroom",
+      "kind": "plant",
+      "name": "寒冰菇",
+      "rarity": "common",
+      "description": "让场上所有对手短暂冻住",
+      "art": "art-card/ice_shroom.svg",
+      "tags": [
+        "蘑菇",
+        "冰"
+      ],
+      "order": 7,
+      "stats": {
+        "attack": 20,
+        "hp": 10,
+        "skill": "冻住所有僵尸一小会儿"
+      },
+      "price": 40
+    },
+    {
+      "id": "doom_shroom",
+      "kind": "plant",
+      "name": "毁灭菇",
+      "rarity": "common",
+      "description": "威力巨大的爆炸，会留下一个大坑",
+      "art": "art-card/doom_shroom.svg",
+      "tags": [
+        "蘑菇",
+        "爆炸"
+      ],
+      "order": 8,
+      "stats": {
+        "attack": 100,
+        "hp": 10,
+        "skill": "毁灭性的大爆炸，留下一个大坑"
+      },
+      "price": 45
+    },
+    {
+      "id": "tangle_kelp",
+      "kind": "plant",
+      "name": "缠绕海草",
+      "rarity": "rare",
+      "description": "藏在水里，把经过的对手拖下去",
+      "art": "art-card/tangle_kelp.svg",
+      "tags": [
+        "泳池"
+      ],
+      "order": 9,
+      "stats": {
+        "attack": 70,
+        "hp": 20,
+        "skill": "把靠近水边的僵尸拖进水里"
+      },
+      "price": 100
+    },
+    {
+      "id": "split_pea",
+      "kind": "plant",
+      "name": "裂荚射手",
+      "rarity": "rare",
+      "description": "前后两个方向都能发射豌豆",
+      "art": "art-card/split_pea.svg",
+      "tags": [
+        "射手"
+      ],
+      "order": 10,
+      "stats": {
+        "attack": 50,
+        "hp": 30,
+        "skill": "前后两个方向都能射击"
+      },
+      "price": 100
+    },
+    {
+      "id": "tall_nut",
+      "kind": "plant",
+      "name": "高坚果",
+      "rarity": "rare",
+      "description": "个子更高，跳不过去也翻不过去",
+      "art": "art-card/tall_nut.svg",
+      "tags": [
+        "防御"
+      ],
+      "order": 11,
+      "stats": {
+        "attack": 0,
+        "hp": 100,
+        "skill": "又高又硬，跳不过去也啃不动"
+      },
+      "price": 95
+    },
+    {
+      "id": "cattail",
+      "kind": "plant",
+      "name": "猫尾草",
+      "rarity": "rare",
+      "description": "水上的射手，追着目标发射尖刺",
+      "art": "art-card/cattail.svg",
+      "tags": [
+        "泳池",
+        "射手"
+      ],
+      "order": 12,
+      "stats": {
+        "attack": 60,
+        "hp": 30,
+        "skill": "会自己瞄准，打得到所有地方"
+      },
+      "price": 105
+    },
+    {
+      "id": "sea_shroom",
+      "kind": "plant",
+      "name": "海蘑菇",
+      "rarity": "rare",
+      "description": "生活在水中的小蘑菇",
+      "art": "art-card/sea_shroom.svg",
+      "tags": [
+        "蘑菇",
+        "泳池"
+      ],
+      "order": 13,
+      "stats": {
+        "attack": 30,
+        "hp": 25,
+        "skill": "长在水里的小蘑菇"
+      },
+      "price": 90
+    },
+    {
+      "id": "flower_pot",
+      "kind": "plant",
+      "name": "花盆",
+      "rarity": "rare",
+      "description": "在屋顶上给植物提供种植的位置",
+      "art": "art-card/flower_pot.svg",
+      "tags": [
+        "屋顶"
+      ],
+      "order": 14,
+      "stats": {
+        "attack": 0,
+        "hp": 30,
+        "skill": "让植物能种在屋顶上"
+      },
+      "price": 95
+    },
+    {
+      "id": "coffee_bean",
+      "kind": "plant",
+      "name": "咖啡豆",
+      "rarity": "rare",
+      "description": "能叫醒白天睡觉的蘑菇",
+      "art": "art-card/coffee_bean.svg",
+      "tags": [
+        "蘑菇"
+      ],
+      "order": 15,
+      "stats": {
+        "attack": 0,
+        "hp": 15,
+        "skill": "叫醒睡着的蘑菇们"
+      },
+      "price": 95
+    },
+    {
+      "id": "pumpkin",
+      "kind": "plant",
+      "name": "南瓜头",
+      "rarity": "rare",
+      "description": "套在别的植物外面，多一层保护",
+      "art": "art-card/pumpkin.svg",
+      "tags": [
+        "防御"
+      ],
+      "order": 16,
+      "stats": {
+        "attack": 0,
+        "hp": 80,
+        "skill": "套在别的植物外面当保护壳"
+      },
+      "price": 95
+    },
+    {
+      "id": "cob_cannon",
+      "kind": "plant",
+      "name": "玉米加农炮",
+      "rarity": "epic",
+      "description": "威力很大的大炮，需要两株玉米才能组成",
+      "art": "art-card/cob_cannon.svg",
+      "tags": [
+        "玉米",
+        "炮"
+      ],
+      "order": 17,
+      "stats": {
+        "attack": 100,
+        "hp": 30,
+        "skill": "发射一发巨大的玉米炮弹"
+      },
+      "price": 250
+    },
+    {
+      "id": "winter_melon",
+      "kind": "plant",
+      "name": "冰瓜投手",
+      "rarity": "epic",
+      "description": "抛出冰西瓜，溅到的对手都会变慢",
+      "art": "art-card/winter_melon.svg",
+      "tags": [
+        "投手",
+        "冰"
+      ],
+      "order": 18,
+      "stats": {
+        "attack": 80,
+        "hp": 30,
+        "skill": "冰冻西瓜，砸中一片僵尸都变慢"
+      },
+      "price": 240
+    },
+    {
+      "id": "marigold",
+      "kind": "plant",
+      "name": "金盏花",
+      "rarity": "epic",
+      "description": "会开出金币的小花",
+      "art": "art-card/marigold.svg",
+      "tags": [
+        "金币"
+      ],
+      "order": 19,
+      "stats": {
+        "attack": 0,
+        "hp": 30,
+        "skill": "开出金币，送来更多阳光"
+      },
+      "price": 190
+    },
+    {
+      "id": "spikerock",
+      "kind": "plant",
+      "name": "地刺王",
+      "rarity": "legend",
+      "description": "比地刺更结实的刺，能扎很多次",
+      "art": "art-card/spikerock.svg",
+      "tags": [
+        "刺"
+      ],
+      "order": 20,
+      "stats": {
+        "attack": 50,
+        "hp": 90,
+        "skill": "更硬更尖的地刺，踩多少次都不坏"
+      },
+      "price": 370
+    }
+  ]
+}

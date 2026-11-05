@@ -1,0 +1,519 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-05T10:03:42Z",
+  "packs": [
+    {
+      "id": "core-autumn",
+      "name": "秋季学期植物包",
+      "version": "1.2.0",
+      "minAppVersion": "1.0.0",
+      "characters": [
+        {
+          "id": "peashooter",
+          "kind": "plant"
+        },
+        {
+          "id": "sunflower",
+          "kind": "plant"
+        },
+        {
+          "id": "wall_nut",
+          "kind": "plant"
+        },
+        {
+          "id": "cherry_bomb",
+          "kind": "plant"
+        },
+        {
+          "id": "puff_shroom",
+          "kind": "plant"
+        },
+        {
+          "id": "fume_shroom",
+          "kind": "plant"
+        },
+        {
+          "id": "potato_mine",
+          "kind": "plant"
+        },
+        {
+          "id": "magnet_shroom",
+          "kind": "plant"
+        },
+        {
+          "id": "lily_pad",
+          "kind": "plant"
+        },
+        {
+          "id": "snow_pea",
+          "kind": "plant"
+        },
+        {
+          "id": "repeater",
+          "kind": "plant"
+        },
+        {
+          "id": "cabbage_pult",
+          "kind": "plant"
+        },
+        {
+          "id": "blover",
+          "kind": "plant"
+        },
+        {
+          "id": "plantern",
+          "kind": "plant"
+        },
+        {
+          "id": "cactus",
+          "kind": "plant"
+        },
+        {
+          "id": "starfruit",
+          "kind": "plant"
+        },
+        {
+          "id": "kernel_pult",
+          "kind": "plant"
+        },
+        {
+          "id": "melon_pult",
+          "kind": "plant"
+        },
+        {
+          "id": "torchwood",
+          "kind": "plant"
+        },
+        {
+          "id": "twin_sunflower",
+          "kind": "plant"
+        }
+      ],
+      "plants": 20,
+      "zombies": 0,
+      "totalBytes": 41495,
+      "files": [
+        {
+          "path": "core-autumn/pack.json",
+          "size": 9018,
+          "sha256": "e95b9ac6731172beac0f92b4b4788412a96ba635cc146966565feb1d2f423cba"
+        },
+        {
+          "path": "core-autumn/art-card/peashooter.svg",
+          "size": 1647,
+          "sha256": "e0ace8f335263fe5d48fc03becc5798b7c25b907cd0830d1e947e08f130e9957"
+        },
+        {
+          "path": "core-autumn/art-card/sunflower.svg",
+          "size": 2282,
+          "sha256": "bdc44f8fbb4c9cb3985a7b1cb73e25e9047f89acaafc1b190a26bf0821c44581"
+        },
+        {
+          "path": "core-autumn/art-card/wall_nut.svg",
+          "size": 1301,
+          "sha256": "e0f79999dec5b83e94934345e0e5b71c8db7bea04a4ad4b54fb916c5b78d1a3d"
+        },
+        {
+          "path": "core-autumn/art-card/cherry_bomb.svg",
+          "size": 2154,
+          "sha256": "2ea719a6717ad50813fa0713b4a2891799022b0a30c6173785720e6b2a47d9cc"
+        },
+        {
+          "path": "core-autumn/art-card/puff_shroom.svg",
+          "size": 1365,
+          "sha256": "eecd19244813c226d72b8cca059631e63a3e5f74fd6f0a187718d7e27004c0aa"
+        },
+        {
+          "path": "core-autumn/art-card/fume_shroom.svg",
+          "size": 1540,
+          "sha256": "a328433d056da2343958785786553c0b7f73235f1eb24c08778e5563cb411d3c"
+        },
+        {
+          "path": "core-autumn/art-card/potato_mine.svg",
+          "size": 1552,
+          "sha256": "dc0e7d333b25e11ce68c01be1753a080e341bf0940ca5edb174801eeea3ce448"
+        },
+        {
+          "path": "core-autumn/art-card/magnet_shroom.svg",
+          "size": 1456,
+          "sha256": "240fb814a1e2f301073b6df3d9385e4822539ebab54f0a475066d9b7a6240c97"
+        },
+        {
+          "path": "core-autumn/art-card/lily_pad.svg",
+          "size": 1042,
+          "sha256": "89128da2fcad5898ab176aba2dfa5f7952ad1e17e3ee1f9a1e097f3a40882e3e"
+        },
+        {
+          "path": "core-autumn/art-card/snow_pea.svg",
+          "size": 1824,
+          "sha256": "27c278f106134ef2bfd7715e79213d47b6080025a8955a9c77750bffe59fe943"
+        },
+        {
+          "path": "core-autumn/art-card/repeater.svg",
+          "size": 1813,
+          "sha256": "c0ec3850de14b4487d8986f534892700780d5908a4d5dfeba56601373b7292b4"
+        },
+        {
+          "path": "core-autumn/art-card/cabbage_pult.svg",
+          "size": 1284,
+          "sha256": "0844ec9afbb8f8f9517eb45e2d1a2a92af294a567619be0a3b6f88acd206f2a3"
+        },
+        {
+          "path": "core-autumn/art-card/blover.svg",
+          "size": 1807,
+          "sha256": "6f2bffe86b4b6eb18f993a28014bd8377b2057901b7a8d08240ff90341d20073"
+        },
+        {
+          "path": "core-autumn/art-card/plantern.svg",
+          "size": 1381,
+          "sha256": "bcb943cd7d232b51480ed0809ac82b3294b5b132d6dfd9066039d559a39f07d6"
+        },
+        {
+          "path": "core-autumn/art-card/cactus.svg",
+          "size": 1778,
+          "sha256": "78f2bd630061c72c116e6d22a0b6e4e5e28759ecc15cf43be5056ec22f2849d6"
+        },
+        {
+          "path": "core-autumn/art-card/starfruit.svg",
+          "size": 1355,
+          "sha256": "50b20e948dce285ca62677268ec7ba9c311ce35e226c8b00a0b87684bbc29d45"
+        },
+        {
+          "path": "core-autumn/art-card/kernel_pult.svg",
+          "size": 1658,
+          "sha256": "f793cf018dad2ac4945ff5c47891e3e1c7b7161f8628a989148cab0929170b2a"
+        },
+        {
+          "path": "core-autumn/art-card/melon_pult.svg",
+          "size": 1436,
+          "sha256": "e3296b4c277729c3db7703513b901ffb39eb24764801be2585c2d4f072a8595a"
+        },
+        {
+          "path": "core-autumn/art-card/torchwood.svg",
+          "size": 1518,
+          "sha256": "6365fdc8dd50b475a5d7397bf65ca967b7c66ea088744b1dc5f67facb0ef8b67"
+        },
+        {
+          "path": "core-autumn/art-card/twin_sunflower.svg",
+          "size": 2284,
+          "sha256": "51ff882a148df70c95c0856ab41cb2ae16adbd60a1620d7506c9c0dc4f73778f"
+        }
+      ]
+    },
+    {
+      "id": "core-spring",
+      "name": "春季学期植物包",
+      "version": "1.2.0",
+      "minAppVersion": "1.0.0",
+      "characters": [
+        {
+          "id": "squash",
+          "kind": "plant"
+        },
+        {
+          "id": "jalapeno",
+          "kind": "plant"
+        },
+        {
+          "id": "garlic",
+          "kind": "plant"
+        },
+        {
+          "id": "spikeweed",
+          "kind": "plant"
+        },
+        {
+          "id": "scaredy_shroom",
+          "kind": "plant"
+        },
+        {
+          "id": "gloom_shroom",
+          "kind": "plant"
+        },
+        {
+          "id": "ice_shroom",
+          "kind": "plant"
+        },
+        {
+          "id": "doom_shroom",
+          "kind": "plant"
+        },
+        {
+          "id": "tangle_kelp",
+          "kind": "plant"
+        },
+        {
+          "id": "split_pea",
+          "kind": "plant"
+        },
+        {
+          "id": "tall_nut",
+          "kind": "plant"
+        },
+        {
+          "id": "cattail",
+          "kind": "plant"
+        },
+        {
+          "id": "sea_shroom",
+          "kind": "plant"
+        },
+        {
+          "id": "flower_pot",
+          "kind": "plant"
+        },
+        {
+          "id": "coffee_bean",
+          "kind": "plant"
+        },
+        {
+          "id": "pumpkin",
+          "kind": "plant"
+        },
+        {
+          "id": "cob_cannon",
+          "kind": "plant"
+        },
+        {
+          "id": "winter_melon",
+          "kind": "plant"
+        },
+        {
+          "id": "marigold",
+          "kind": "plant"
+        },
+        {
+          "id": "spikerock",
+          "kind": "plant"
+        }
+      ],
+      "plants": 20,
+      "zombies": 0,
+      "totalBytes": 37854,
+      "files": [
+        {
+          "path": "core-spring/pack.json",
+          "size": 8924,
+          "sha256": "2a7629754b2fb9a9efaba29477196d75c519b8f97ded342b69e16645727e0489"
+        },
+        {
+          "path": "core-spring/art-card/squash.svg",
+          "size": 1468,
+          "sha256": "afbb79817fbbea4bd60b3b0007c824759311f5365e5b6eddd9a03f767b0c4c6c"
+        },
+        {
+          "path": "core-spring/art-card/jalapeno.svg",
+          "size": 1456,
+          "sha256": "3d21871fab1649e29b0d33d27606ee42407cc0faf55dd3b5e149fd46723cc51b"
+        },
+        {
+          "path": "core-spring/art-card/garlic.svg",
+          "size": 1440,
+          "sha256": "22a781900e15ede13018192ff61138ea2323b7bb7bd056f500dff07f4d4114fb"
+        },
+        {
+          "path": "core-spring/art-card/spikeweed.svg",
+          "size": 1252,
+          "sha256": "855c9c68c639d496da2b093664d98ef7805b29d07c71481ed4d1d9a367145623"
+        },
+        {
+          "path": "core-spring/art-card/scaredy_shroom.svg",
+          "size": 1345,
+          "sha256": "d71e7f459de21cd606acde8b008875dea0f1ebaf268221f32e42f150c7221aad"
+        },
+        {
+          "path": "core-spring/art-card/gloom_shroom.svg",
+          "size": 1546,
+          "sha256": "eda4b16860aaccc54b4b366e00486d48e01c1f51a039cc0d0f3e0219b97486f9"
+        },
+        {
+          "path": "core-spring/art-card/ice_shroom.svg",
+          "size": 1445,
+          "sha256": "0d3cc9b98ea23771543d9f328073ab3576628c30bb6acbb6a4c975cccfabbef9"
+        },
+        {
+          "path": "core-spring/art-card/doom_shroom.svg",
+          "size": 1501,
+          "sha256": "6445440acebb225a2782d057c48640bb19995eddf8b80de34a2a35033cdab392"
+        },
+        {
+          "path": "core-spring/art-card/tangle_kelp.svg",
+          "size": 1314,
+          "sha256": "34d7fb41e1ef21d7239c6566c4175193f140ffa1d24792b2cedbd9bc3bbd0a2b"
+        },
+        {
+          "path": "core-spring/art-card/split_pea.svg",
+          "size": 1805,
+          "sha256": "bf2ca697f870e3f70aa788f09318278c338f1957d9a00b0046d9f161f32fd738"
+        },
+        {
+          "path": "core-spring/art-card/tall_nut.svg",
+          "size": 1340,
+          "sha256": "e2cf282691c74037e9c976fca95a02a6bfad7952990bc8bd2ae1a979ed405bbc"
+        },
+        {
+          "path": "core-spring/art-card/cattail.svg",
+          "size": 1791,
+          "sha256": "3cdfbb59ec41f712dd1d674244bab544df76a883d5e47b0201613623b3ff6c74"
+        },
+        {
+          "path": "core-spring/art-card/sea_shroom.svg",
+          "size": 1439,
+          "sha256": "96097d32aaba7d6f5f0a37979fc112f38449a631b6bdff630178fe0c4d776cfc"
+        },
+        {
+          "path": "core-spring/art-card/flower_pot.svg",
+          "size": 1066,
+          "sha256": "273251b1a6900cbc69db80bc51a63d17666c2013424cb686b8c12824788e0ec2"
+        },
+        {
+          "path": "core-spring/art-card/coffee_bean.svg",
+          "size": 1246,
+          "sha256": "9724eac2f9bc448db65831b17670b0a12e8ae991c14f026c0fc5baee98bd8d1a"
+        },
+        {
+          "path": "core-spring/art-card/pumpkin.svg",
+          "size": 1261,
+          "sha256": "beb24553dfe3b14889d3a391c3bd58ebc67678e737d57fbf6cfc714819cccb33"
+        },
+        {
+          "path": "core-spring/art-card/cob_cannon.svg",
+          "size": 1489,
+          "sha256": "c9978712789448d24dd53fe16f5af250e6c20de258683c99bacd0aecbdb926b0"
+        },
+        {
+          "path": "core-spring/art-card/winter_melon.svg",
+          "size": 1513,
+          "sha256": "a42234f841727ed3c2a391542d6632221d0de99ef71d12d610ea37f669b0f92d"
+        },
+        {
+          "path": "core-spring/art-card/marigold.svg",
+          "size": 1843,
+          "sha256": "dec440694aa2e5bc4227de11d63b3d9d624b61f4ced6c705c30b753dc150d8ba"
+        },
+        {
+          "path": "core-spring/art-card/spikerock.svg",
+          "size": 1370,
+          "sha256": "65d7ba332910a228dffb24bb2db627b7b923a80e0cba61dacdac330d51dcb988"
+        }
+      ]
+    },
+    {
+      "id": "zombies-basic",
+      "name": "基础僵尸包",
+      "version": "1.1.0",
+      "minAppVersion": "1.0.0",
+      "characters": [
+        {
+          "id": "zombie_normal",
+          "kind": "zombie"
+        },
+        {
+          "id": "zombie_newspaper",
+          "kind": "zombie"
+        },
+        {
+          "id": "zombie_jack",
+          "kind": "zombie"
+        },
+        {
+          "id": "zombie_dancer",
+          "kind": "zombie"
+        },
+        {
+          "id": "zombie_cone",
+          "kind": "zombie"
+        },
+        {
+          "id": "zombie_bucket",
+          "kind": "zombie"
+        },
+        {
+          "id": "zombie_digger",
+          "kind": "zombie"
+        },
+        {
+          "id": "zombie_pole",
+          "kind": "zombie"
+        },
+        {
+          "id": "zombie_balloon",
+          "kind": "zombie"
+        },
+        {
+          "id": "zombie_football",
+          "kind": "zombie"
+        },
+        {
+          "id": "zombie_boss",
+          "kind": "zombie"
+        }
+      ],
+      "plants": 0,
+      "zombies": 11,
+      "totalBytes": 20218,
+      "files": [
+        {
+          "path": "zombies-basic/pack.json",
+          "size": 4316,
+          "sha256": "6d2d072b0d38c7bd89ea620d5603326da0c2c0fe565b2e8898e07f5e50638ab6"
+        },
+        {
+          "path": "zombies-basic/art-card/zombie_normal.svg",
+          "size": 1595,
+          "sha256": "774d6635776a52827852b803b9ef19f7e8771642e90048cd878f2bebb760d2d2"
+        },
+        {
+          "path": "zombies-basic/art-card/zombie_newspaper.svg",
+          "size": 1628,
+          "sha256": "09861e3f3c23d8d50be00cba24ce75ab69aef4547f66bddeecba450120baff5c"
+        },
+        {
+          "path": "zombies-basic/art-card/zombie_jack.svg",
+          "size": 1573,
+          "sha256": "41dab0e654a14d3667912ee18cd6b2180f232748e496366f1579708618bf8859"
+        },
+        {
+          "path": "zombies-basic/art-card/zombie_dancer.svg",
+          "size": 1260,
+          "sha256": "7cd2e6ed165834981bad655a7c53416ce9596f00ae10aae143e9182a12a09822"
+        },
+        {
+          "path": "zombies-basic/art-card/zombie_cone.svg",
+          "size": 1397,
+          "sha256": "53912542745747852048a6c4434ba8b44228d3305311bd86306ba6675074e085"
+        },
+        {
+          "path": "zombies-basic/art-card/zombie_bucket.svg",
+          "size": 1520,
+          "sha256": "193606a5bb4f968c52851e977ecae730909c51829524656fedbded9e6b012da6"
+        },
+        {
+          "path": "zombies-basic/art-card/zombie_digger.svg",
+          "size": 1545,
+          "sha256": "c614cf7ef190e3cd4b3223bef6a325cd0ea11cf29a47fa60eeb1dd6b926187aa"
+        },
+        {
+          "path": "zombies-basic/art-card/zombie_pole.svg",
+          "size": 1318,
+          "sha256": "e7d42c833600ad62d49c7278966bb485de16d1ef4ebcf7ccffe8a3d0e75b1f37"
+        },
+        {
+          "path": "zombies-basic/art-card/zombie_balloon.svg",
+          "size": 1247,
+          "sha256": "e4f3508ca76ee36aa8a8b1cea19c9e710c7cd2cd4d1c18168530d264faeaf716"
+        },
+        {
+          "path": "zombies-basic/art-card/zombie_football.svg",
+          "size": 1312,
+          "sha256": "12531ecd8eef8f26c6c080f73fa07c6b95b602ff993050830746afeffbf096ee"
+        },
+        {
+          "path": "zombies-basic/art-card/zombie_boss.svg",
+          "size": 1507,
+          "sha256": "929689a4f4ce16923e1dd3e8bb86a6bc03e3c636f61174b3e027d01078c93823"
+        }
+      ]
+    }
+  ]
+}
